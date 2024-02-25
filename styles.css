@@ -1,0 +1,105 @@
+ 
+body {
+    background-color: powderblue;
+    height: 100vh;
+  }
+  header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  footer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid black;
+  }
+
+  
+  .grid {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+  }
+  #first{
+   background-color:skyblue;
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:1;
+    grid-row-end:4;
+    padding: 100px ;
+    text-align:justify;
+  }
+  #second{
+    background-color:pink;
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:4;
+    grid-row-end:8;
+    padding:  100px ;
+    text-align:center;
+  }
+  #third{
+    background-color:violet;
+     grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:4;
+    padding: 100px ;
+    text-align:start;
+  }
+  #forth{
+    background-color:yellow;
+     grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:4;
+    grid-row-end:8;
+    padding: 100px ;
+    text-align:inherit;
+  }
+  /* #value [type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: black;
+  } */
+  #button{
+  background-color: brown;
+  color: white;
+  padding: 20px;
+  cursor:pointer;
+  }
+  #reset{
+    background-color: white;
+    color: red;
+    padding: 5px;
+    }
+    #startover{
+      background-color: white;
+      color: red;
+      padding: 5px;
+      }
+    #generator{
+        background-color:#355747;
+        color: white;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+  p {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  #randImage{
+    width: 200px; 
+    height: 90px; 
+    object-fit: cover;
+  }
+  .hidden{
+    visibility: hidden;
+  }
